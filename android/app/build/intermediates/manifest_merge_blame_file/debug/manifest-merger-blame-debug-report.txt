@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 <?xml version="1.0" encoding="utf-8"?>
+4<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+5    xmlns:tools="http://schemas.android.com/tools">
+6
+7    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+8
+9    <application
+10        android:usesCleartextTraffic="true"
+11        tools:targetApi="31"
+12        tools:ignore="GoogleAppIndexingWarning">
+13        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity"  android:exported="true" />
+14    </application>
+15    </manifest>
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.logitruckrntheme"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="23"
+24        android:targetSdkVersion="31" />
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:4:5-67
+26-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:4:22-64
+27    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+27-->[com.facebook.flipper:flipper:0.75.1] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:5-76
+27-->[com.facebook.flipper:flipper:0.75.1] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:22-73
+28    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+28-->[:react-native-maps] C:\LogiTruckTemplate\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+28-->[:react-native-maps] C:\LogiTruckTemplate\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-78
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+30
+31    <uses-feature
+31-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+32        android:glEsVersion="0x00020000"
+32-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+33        android:required="true" />
+33-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+34
+35    <application
+35-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:6:5-26:19
+36        android:name="com.logitruckrntheme.MainApplication"
+36-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:7:7-38
+37        android:allowBackup="false"
+37-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:10:7-34
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.1.0] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\d67cd79abd1ca209502f51c69d23182b\core-1.1.0\AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:hardwareAccelerated="false"
+41-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:13:7-42
+42        android:icon="@mipmap/ic_launcher"
+42-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:9:7-41
+43        android:label="@string/app_name"
+43-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:8:7-39
+44        android:theme="@style/AppTheme"
+44-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:11:7-38
+45        android:usesCleartextTraffic="true" >
+45-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:12:7-42
+46        <activity
+46-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:14:7-25:18
+47            android:name="com.logitruckrntheme.MainActivity"
+47-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:15:9-37
+48            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+48-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:17:9-86
+49            android:exported="true"
+49-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:20:11-34
+50            android:label="@string/app_name"
+50-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:16:9-41
+51            android:launchMode="singleTask"
+51-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:18:9-40
+52            android:windowSoftInputMode="adjustResize" >
+52-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:19:9-51
+53            <intent-filter>
+53-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:21:9-24:25
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:22:13-65
+54-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:22:21-62
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:23:13-73
+56-->C:\LogiTruckTemplate\android\app\src\main\AndroidManifest.xml:23:23-70
+57            </intent-filter>
+58        </activity>
+59        <!-- Needs to be explicitly declared on P+ -->
+60        <uses-library
+60-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+61            android:name="org.apache.http.legacy"
+61-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+62            android:required="false" />
+62-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\faf3edd0a0a40b32e6c32885cc662e42\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+63
+64        <activity
+64-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+65            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+66            android:exported="false"
+66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\2631375de80937c90cd3a1032ab35871\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+68
+69        <meta-data
+69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\dcffa74d8d015470a7eae32b9eb648c7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+70            android:name="com.google.android.gms.version"
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\dcffa74d8d015470a7eae32b9eb648c7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+71            android:value="@integer/google_play_services_version" />
+71-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Shafkat\.gradle\caches\transforms-2\files-2.1\dcffa74d8d015470a7eae32b9eb648c7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+72    </application>
+73
+74</manifest>

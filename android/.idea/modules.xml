@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LogiTruckRnTheme.iml" filepath="$PROJECT_DIR$/.idea/modules/LogiTruckRnTheme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LogiTruckRnTheme.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LogiTruckRnTheme.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2039870481/LogiTruckRnTheme.react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/2039870481/LogiTruckRnTheme.react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-79486130/LogiTruckRnTheme.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-79486130/LogiTruckRnTheme.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-685793975/LogiTruckRnTheme.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-685793975/LogiTruckRnTheme.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-65842853/LogiTruckRnTheme.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-65842853/LogiTruckRnTheme.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/53320106/LogiTruckRnTheme.react-native-maps.iml" filepath="$PROJECT_DIR$/.idea/modules/53320106/LogiTruckRnTheme.react-native-maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1911035699/LogiTruckRnTheme.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/1911035699/LogiTruckRnTheme.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1976202898/LogiTruckRnTheme.react-native-restart.iml" filepath="$PROJECT_DIR$/.idea/modules/1976202898/LogiTruckRnTheme.react-native-restart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1266645134/LogiTruckRnTheme.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1266645134/LogiTruckRnTheme.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1742262774/LogiTruckRnTheme.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-1742262774/LogiTruckRnTheme.react-native-screens.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* LogiTruckRnThemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LogiTruckRnThemeTests.m */; };
+		021BBC48C59A49EF96F07221 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 031A8366CE784B43851BCFD0 /* Foundation.ttf */; };
+		072024E6A9FC43CEB4B48182 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417649317BC947E1B7CC2A4B /* EvilIcons.ttf */; };
+		0D61D8642BC0479E8341D56A /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0287BAB7F5A44D6DA0822246 /* Ionicons.ttf */; };
+		0D898035479A458197F7E960 /* PoppinsRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E977DF000F73445B935B9847 /* PoppinsRegular.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		161457A31B624E64B18D5B7B /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DEBE27A66574DC5ADB0B875 /* Entypo.ttf */; };
+		35ADDB7D63C148E18A42E6EF /* PoppinsMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 026C669616754873B75E73DE /* PoppinsMedium.ttf */; };
+		4275982C1A244452B1965D0D /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68B4806E868B4E1B93730A2D /* SimpleLineIcons.ttf */; };
+		4A2E34300732402BA19A8C48 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3608F30E76D54025A038E797 /* Fontisto.ttf */; };
+		4B19321A1BAC4A96A18F0EC1 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAAF49B1CD524F9C94DBBCC5 /* MaterialIcons.ttf */; };
+		776A54AF75AA4FE88542A688 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5A17822E2F549DFA733EF31 /* FontAwesome5_Solid.ttf */; };
+		77C3FE8AD7D242EBB3A85CD5 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7972EFB4F3B2468787DC1807 /* Roboto_medium.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8B9B98B01B87455BB23DA6FB /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCC0BD60197D468AB29043BF /* JosefinSans-Regular.ttf */; };
+		987009BC63EE43898E458440 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D02463CCF8B47BBB1F6A653 /* FontAwesome.ttf */; };
+		9B53AD86C46F4A2BAE670A4F /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF02748AA8674322BCA96727 /* Zocial.ttf */; };
+		9E59C64F65F041DC83EFBE95 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6620F6B7CD24AA6935BE290 /* FontAwesome5_Regular.ttf */; };
+		A11FA7CE6E67B4F7CF62AF4A /* libPods-LogiTruckRnTheme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3493B88B610A8EC8FA7002B /* libPods-LogiTruckRnTheme.a */; };
+		A309ED6197F14344BD0C5EC9 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DAAD969B9854F77A9C08DBE /* Octicons.ttf */; };
+		B53EA9ECBD2841F0AAF76FFA /* PoppinsBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041B6CB45C314509AF8FFE25 /* PoppinsBold.ttf */; };
+		B910263E0D674AEBB83CC7A9 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AD8CDA600B744C5AB2FB87E /* AntDesign.ttf */; };
+		C10A35FB47CF4C4F9AA0C4AE /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B31ACA86D874F0E9F00E8DE /* Feather.ttf */; };
+		D70783AB2FAB4137B3F1EF2A /* JosefinSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFAA9EDFF53243DA953C89AA /* JosefinSans-SemiBold.ttf */; };
+		DBE298AAE4A6449D92CA3263 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3789B603573942C0892834B4 /* rubicon-icon-font.ttf */; };
+		DC1DB8A4FC7F4F97B2D99B3E /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1101CC52C67545A6B8D4EFF4 /* FontAwesome5_Brands.ttf */; };
+		E3D7BDE1C5864E91BBEAC8FA /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC9F2056C654E86AAE60598 /* MaterialCommunityIcons.ttf */; };
+		F3FE2518C3574191A619B916 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 822D7B4990FC4936A3C7657D /* Roboto.ttf */; };
+		F5CE9D512F944E7684C0A2B9 /* PoppinsSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 712529AB5A1D46AA8E14394F /* PoppinsSemiBold.ttf */; };
+		F7D1BC40EB6164A463310F7E /* libPods-LogiTruckRnTheme-LogiTruckRnThemeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB05F87D1AD182B49D938F0D /* libPods-LogiTruckRnTheme-LogiTruckRnThemeTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = LogiTruckRnTheme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* LogiTruckRnThemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogiTruckRnThemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* LogiTruckRnThemeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogiTruckRnThemeTests.m; sourceTree = "<group>"; };
+		026C669616754873B75E73DE /* PoppinsMedium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsMedium.ttf; path = ../assets/fonts/PoppinsMedium.ttf; sourceTree = "<group>"; };
+		0287BAB7F5A44D6DA0822246 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		031A8366CE784B43851BCFD0 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		041B6CB45C314509AF8FFE25 /* PoppinsBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsBold.ttf; path = ../assets/fonts/PoppinsBold.ttf; sourceTree = "<group>"; };
+		09066040515A84BF17D87301 /* Pods-LogiTruckRnTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogiTruckRnTheme.debug.xcconfig"; path = "Target Support Files/Pods-LogiTruckRnTheme/Pods-LogiTruckRnTheme.debug.xcconfig"; sourceTree = "<group>"; };
+		0DAAD969B9854F77A9C08DBE /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		1101CC52C67545A6B8D4EFF4 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* LogiTruckRnTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogiTruckRnTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = LogiTruckRnTheme/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = LogiTruckRnTheme/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LogiTruckRnTheme/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LogiTruckRnTheme/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LogiTruckRnTheme/main.m; sourceTree = "<group>"; };
+		1AD8CDA600B744C5AB2FB87E /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		2D02463CCF8B47BBB1F6A653 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		3608F30E76D54025A038E797 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		3789B603573942C0892834B4 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		39ED83E87A539C68D00BC3DE /* Pods-LogiTruckRnTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogiTruckRnTheme.release.xcconfig"; path = "Target Support Files/Pods-LogiTruckRnTheme/Pods-LogiTruckRnTheme.release.xcconfig"; sourceTree = "<group>"; };
+		417649317BC947E1B7CC2A4B /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		4CC9F2056C654E86AAE60598 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		68B4806E868B4E1B93730A2D /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		6FE10DCB943FEF01720E183B /* Pods-LogiTruckRnTheme-LogiTruckRnThemeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogiTruckRnTheme-LogiTruckRnThemeTests.debug.xcconfig"; path = "Target Support Files/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		712529AB5A1D46AA8E14394F /* PoppinsSemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsSemiBold.ttf; path = ../assets/fonts/PoppinsSemiBold.ttf; sourceTree = "<group>"; };
+		7972EFB4F3B2468787DC1807 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		7DEBE27A66574DC5ADB0B875 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LogiTruckRnTheme/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		822D7B4990FC4936A3C7657D /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		8B31ACA86D874F0E9F00E8DE /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		95E8F23DEBF7192047DC545B /* Pods-LogiTruckRnTheme-LogiTruckRnThemeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogiTruckRnTheme-LogiTruckRnThemeTests.release.xcconfig"; path = "Target Support Files/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF02748AA8674322BCA96727 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		B3493B88B610A8EC8FA7002B /* libPods-LogiTruckRnTheme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LogiTruckRnTheme.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB05F87D1AD182B49D938F0D /* libPods-LogiTruckRnTheme-LogiTruckRnThemeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LogiTruckRnTheme-LogiTruckRnThemeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAA9EDFF53243DA953C89AA /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "JosefinSans-SemiBold.ttf"; path = "../assets/fonts/JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		C5A17822E2F549DFA733EF31 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		DCC0BD60197D468AB29043BF /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "JosefinSans-Regular.ttf"; path = "../assets/fonts/JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
+		E6620F6B7CD24AA6935BE290 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		E977DF000F73445B935B9847 /* PoppinsRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = PoppinsRegular.ttf; path = ../assets/fonts/PoppinsRegular.ttf; sourceTree = "<group>"; };
+		EAAF49B1CD524F9C94DBBCC5 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D1BC40EB6164A463310F7E /* libPods-LogiTruckRnTheme-LogiTruckRnThemeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11FA7CE6E67B4F7CF62AF4A /* libPods-LogiTruckRnTheme.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* LogiTruckRnThemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* LogiTruckRnThemeTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = LogiTruckRnThemeTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* LogiTruckRnTheme */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = LogiTruckRnTheme;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				B3493B88B610A8EC8FA7002B /* libPods-LogiTruckRnTheme.a */,
+				BB05F87D1AD182B49D938F0D /* libPods-LogiTruckRnTheme-LogiTruckRnThemeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4699828B71E39A38E6495956 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09066040515A84BF17D87301 /* Pods-LogiTruckRnTheme.debug.xcconfig */,
+				39ED83E87A539C68D00BC3DE /* Pods-LogiTruckRnTheme.release.xcconfig */,
+				6FE10DCB943FEF01720E183B /* Pods-LogiTruckRnTheme-LogiTruckRnThemeTests.debug.xcconfig */,
+				95E8F23DEBF7192047DC545B /* Pods-LogiTruckRnTheme-LogiTruckRnThemeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* LogiTruckRnTheme */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* LogiTruckRnThemeTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				EC8B9FF393C94E8290843FA0 /* Resources */,
+				4699828B71E39A38E6495956 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* LogiTruckRnTheme.app */,
+				00E356EE1AD99517003FC87E /* LogiTruckRnThemeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8B9FF393C94E8290843FA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCC0BD60197D468AB29043BF /* JosefinSans-Regular.ttf */,
+				BFAA9EDFF53243DA953C89AA /* JosefinSans-SemiBold.ttf */,
+				041B6CB45C314509AF8FFE25 /* PoppinsBold.ttf */,
+				026C669616754873B75E73DE /* PoppinsMedium.ttf */,
+				E977DF000F73445B935B9847 /* PoppinsRegular.ttf */,
+				712529AB5A1D46AA8E14394F /* PoppinsSemiBold.ttf */,
+				1AD8CDA600B744C5AB2FB87E /* AntDesign.ttf */,
+				7DEBE27A66574DC5ADB0B875 /* Entypo.ttf */,
+				417649317BC947E1B7CC2A4B /* EvilIcons.ttf */,
+				8B31ACA86D874F0E9F00E8DE /* Feather.ttf */,
+				2D02463CCF8B47BBB1F6A653 /* FontAwesome.ttf */,
+				1101CC52C67545A6B8D4EFF4 /* FontAwesome5_Brands.ttf */,
+				E6620F6B7CD24AA6935BE290 /* FontAwesome5_Regular.ttf */,
+				C5A17822E2F549DFA733EF31 /* FontAwesome5_Solid.ttf */,
+				3608F30E76D54025A038E797 /* Fontisto.ttf */,
+				031A8366CE784B43851BCFD0 /* Foundation.ttf */,
+				0287BAB7F5A44D6DA0822246 /* Ionicons.ttf */,
+				4CC9F2056C654E86AAE60598 /* MaterialCommunityIcons.ttf */,
+				EAAF49B1CD524F9C94DBBCC5 /* MaterialIcons.ttf */,
+				0DAAD969B9854F77A9C08DBE /* Octicons.ttf */,
+				822D7B4990FC4936A3C7657D /* Roboto.ttf */,
+				7972EFB4F3B2468787DC1807 /* Roboto_medium.ttf */,
+				68B4806E868B4E1B93730A2D /* SimpleLineIcons.ttf */,
+				AF02748AA8674322BCA96727 /* Zocial.ttf */,
+				3789B603573942C0892834B4 /* rubicon-icon-font.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* LogiTruckRnThemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LogiTruckRnThemeTests" */;
+			buildPhases = (
+				00AD173A9F724D64DA2D8324 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				A58DA8D1BAE815F8AA2CD1AF /* [CP] Embed Pods Frameworks */,
+				D9CAABBF0610953C1FFB76DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = LogiTruckRnThemeTests;
+			productName = LogiTruckRnThemeTests;
+			productReference = 00E356EE1AD99517003FC87E /* LogiTruckRnThemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* LogiTruckRnTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LogiTruckRnTheme" */;
+			buildPhases = (
+				A8BFBB2FF9BEA3F7C3D5973B /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				BDAF98BAB6D557E32D45B898 /* [CP] Embed Pods Frameworks */,
+				41455EF98F1362E38B85A02A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogiTruckRnTheme;
+			productName = LogiTruckRnTheme;
+			productReference = 13B07F961A680F5B00A75B9A /* LogiTruckRnTheme.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "LogiTruckRnTheme" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* LogiTruckRnTheme */,
+				00E356ED1AD99517003FC87E /* LogiTruckRnThemeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				8B9B98B01B87455BB23DA6FB /* JosefinSans-Regular.ttf in Resources */,
+				D70783AB2FAB4137B3F1EF2A /* JosefinSans-SemiBold.ttf in Resources */,
+				B53EA9ECBD2841F0AAF76FFA /* PoppinsBold.ttf in Resources */,
+				35ADDB7D63C148E18A42E6EF /* PoppinsMedium.ttf in Resources */,
+				0D898035479A458197F7E960 /* PoppinsRegular.ttf in Resources */,
+				F5CE9D512F944E7684C0A2B9 /* PoppinsSemiBold.ttf in Resources */,
+				B910263E0D674AEBB83CC7A9 /* AntDesign.ttf in Resources */,
+				161457A31B624E64B18D5B7B /* Entypo.ttf in Resources */,
+				072024E6A9FC43CEB4B48182 /* EvilIcons.ttf in Resources */,
+				C10A35FB47CF4C4F9AA0C4AE /* Feather.ttf in Resources */,
+				987009BC63EE43898E458440 /* FontAwesome.ttf in Resources */,
+				DC1DB8A4FC7F4F97B2D99B3E /* FontAwesome5_Brands.ttf in Resources */,
+				9E59C64F65F041DC83EFBE95 /* FontAwesome5_Regular.ttf in Resources */,
+				776A54AF75AA4FE88542A688 /* FontAwesome5_Solid.ttf in Resources */,
+				4A2E34300732402BA19A8C48 /* Fontisto.ttf in Resources */,
+				021BBC48C59A49EF96F07221 /* Foundation.ttf in Resources */,
+				0D61D8642BC0479E8341D56A /* Ionicons.ttf in Resources */,
+				E3D7BDE1C5864E91BBEAC8FA /* MaterialCommunityIcons.ttf in Resources */,
+				4B19321A1BAC4A96A18F0EC1 /* MaterialIcons.ttf in Resources */,
+				A309ED6197F14344BD0C5EC9 /* Octicons.ttf in Resources */,
+				F3FE2518C3574191A619B916 /* Roboto.ttf in Resources */,
+				77C3FE8AD7D242EBB3A85CD5 /* Roboto_medium.ttf in Resources */,
+				4275982C1A244452B1965D0D /* SimpleLineIcons.ttf in Resources */,
+				9B53AD86C46F4A2BAE670A4F /* Zocial.ttf in Resources */,
+				DBE298AAE4A6449D92CA3263 /* rubicon-icon-font.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00AD173A9F724D64DA2D8324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		41455EF98F1362E38B85A02A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LogiTruckRnTheme/Pods-LogiTruckRnTheme-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LogiTruckRnTheme/Pods-LogiTruckRnTheme-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LogiTruckRnTheme/Pods-LogiTruckRnTheme-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A58DA8D1BAE815F8AA2CD1AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8BFBB2FF9BEA3F7C3D5973B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogiTruckRnTheme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDAF98BAB6D557E32D45B898 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LogiTruckRnTheme/Pods-LogiTruckRnTheme-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LogiTruckRnTheme/Pods-LogiTruckRnTheme-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LogiTruckRnTheme/Pods-LogiTruckRnTheme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9CAABBF0610953C1FFB76DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests/Pods-LogiTruckRnTheme-LogiTruckRnThemeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* LogiTruckRnThemeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* LogiTruckRnTheme */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE10DCB943FEF01720E183B /* Pods-LogiTruckRnTheme-LogiTruckRnThemeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LogiTruckRnThemeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogiTruckRnTheme.app/LogiTruckRnTheme";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95E8F23DEBF7192047DC545B /* Pods-LogiTruckRnTheme-LogiTruckRnThemeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = LogiTruckRnThemeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogiTruckRnTheme.app/LogiTruckRnTheme";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09066040515A84BF17D87301 /* Pods-LogiTruckRnTheme.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LogiTruckRnTheme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = LogiTruckRnTheme;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39ED83E87A539C68D00BC3DE /* Pods-LogiTruckRnTheme.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = LogiTruckRnTheme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = LogiTruckRnTheme;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LogiTruckRnThemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LogiTruckRnTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "LogiTruckRnTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

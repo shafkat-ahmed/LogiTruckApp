@@ -1,0 +1,6 @@
+module Pods_LogiTruckRnTheme {
+  umbrella header "Pods-LogiTruckRnTheme-umbrella.h"
+
+  export *
+  module * { export * }
+}
