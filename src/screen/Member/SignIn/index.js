@@ -1,14 +1,15 @@
+import { Container, Content, Icon, Text, View } from 'native-base'
 import React from 'react'
-import { TouchableOpacity, TextInput, ScrollView } from 'react-native'
-import { Container, Content, View, Text, Icon } from 'native-base'
+import { ScrollView, TouchableOpacity } from 'react-native'
 import Modal from 'react-native-modalbox'
 
-import styles from './styles'
 import Header from '@component/Header'
-import { navigate } from '@utility/navigation'
+import CustomButton from '@component/Ui/CustomButton/CustomButton'
+import CustomTextInput from '@component/Ui/CustomTextInput/CustomTextInput'
 import theme from '@theme/styles'
-import Languages from '@config/language'
-import { setLocale, __ } from '@utility/translation'
+import { navigate } from '@utility/navigation'
+import { __ } from '@utility/translation'
+import styles from './styles'
 
 export default class extends React.Component {
   constructor(props) {
@@ -29,27 +30,17 @@ export default class extends React.Component {
               <Text style={styles.formHeaderDesc}>{__('Login your account')}!</Text>
             </View>
             <View style={styles.formContent}>
-              <View style={styles.formInputGroup}>
-                <Icon name='envelope' type='SimpleLineIcons' style={styles.formInputIcon} />
-                <TextInput
-                  placeholder={__('Email Address or Mobile Number')}
-                  style={styles.formInputText}
-                />
-              </View>
-              <View style={styles.formInputGroup}>
-                <Icon name='lock' type='SimpleLineIcons' style={styles.formInputIcon} />
-                <TextInput
-                  placeholder={__('Password')}
-                  style={styles.formInputText}
-                />
-              </View>
+
+              <CustomTextInput iconName="envelope" placeholder="Email Address or Mobile Number" />
+              
+              <CustomTextInput iconName="lock" placeholder="Password" />
+
               <TouchableOpacity style={styles.forgotBtn} onPress={() => { navigate('MemberForgotPassword') }}>
                 <Text style={styles.forgotBtnText}>{__('Forgot Password')}?</Text>
               </TouchableOpacity>
-              <TouchableOpacity style={styles.formBtn} onPress={() => this.refs.Form.open()}>
-                <Text style={styles.formBtnText}>{__('Sign In')}</Text>
-                <Icon name='arrowright' type='AntDesign' style={styles.formBtnIcon} />
-              </TouchableOpacity>
+
+              <CustomButton onPress={() => this.refs.Form.open()} iconName="arrowright" text="Sign In" />
+
             </View>
             <View style={styles.formFooter}>
               <Text style={styles.formFooterText}>{__('Don\'t have an account')}?</Text>

@@ -1,14 +1,14 @@
-com/logitruckrntheme/BuildConfig.java
- com.logitruckrntheme.BuildConfig
 com/logitruckrntheme/ReactNativeFlipper.java
  com.logitruckrntheme.ReactNativeFlipper
  com.logitruckrntheme.ReactNativeFlipper$1
  com.logitruckrntheme.ReactNativeFlipper$2
  com.logitruckrntheme.ReactNativeFlipper$2$1
 com/logitruckrntheme/MainApplication.java
- com.logitruckrntheme.MainApplication
- com.logitruckrntheme.MainApplication$1
+ com.trucktrackuserapp.MainApplication
+ com.trucktrackuserapp.MainApplication$1
 com/logitruckrntheme/MainActivity.java
- com.logitruckrntheme.MainActivity
+ com.trucktrackuserapp.MainActivity
+com/trucktrackuserapp/BuildConfig.java
+ com.trucktrackuserapp.BuildConfig
 com/facebook/react/PackageList.java
  com.facebook.react.PackageList

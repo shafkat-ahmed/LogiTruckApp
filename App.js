@@ -1,50 +1,56 @@
-import React from 'react'
-import { Dimensions } from 'react-native'
+import React from 'react';
+import { Dimensions } from 'react-native';
 
-import { NavigationContainer } from '@react-navigation/native'
-import { createStackNavigator } from '@react-navigation/stack'
-import { createDrawerNavigator } from '@react-navigation/drawer'
+import { Provider } from 'react-redux';
+import { store } from './src/redux/store';
+
+import { createDrawerNavigator } from '@react-navigation/drawer';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 
 /* Drawer Menu */
-import DrawerContent from '@component/Menu/Left'
+import DrawerContent from '@component/Menu/Left';
 
 /* Public Screens */
-import PublicIntro from '@screen/Public/Intro'
-import PublicAboutUs from '@screen/Public/AboutUs'
-import PublicPrivacyPolicy from '@screen/Public/PrivacyPolicy'
-import PublicTermsofUse from '@screen/Public/TermsofUse'
-import PublicContactUs from '@screen/Public/ContactUs'
-import PublicFaqs from '@screen/Public/Faqs'
+import PublicAboutUs from '@screen/Public/AboutUs';
+import PublicContactUs from '@screen/Public/ContactUs';
+import PublicFaqs from '@screen/Public/Faqs';
+import PublicIntro from '@screen/Public/Intro';
+import PublicPrivacyPolicy from '@screen/Public/PrivacyPolicy';
+import PublicTermsofUse from '@screen/Public/TermsofUse';
 
-import PublicLanguage from '@screen/Public/Language'
+import PublicLanguage from '@screen/Public/Language';
 
 /* Member Screens */
-import MemberHome from '@screen/Member/Home'
-import MemberSignUp from '@screen/Member/SignUp'
-import MemberSignIn from '@screen/Member/SignIn'
-import MemberForgotPassword from '@screen/Member/ForgotPassword'
-import MemberResetPassword from '@screen/Member/ResetPassword'
-import MemberProfile from '@screen/Member/Profile'
-import MemberSettings from '@screen/Member/Settings'
-import MemberChangePassword from '@screen/Member/ChangePassword'
-import MemberLoads from '@screen/Member/Loads'
-import MemberLoadCreate from '@screen/Member/LoadCreate'
-import MemberTrips from '@screen/Member/Trips'
-import MemberTripCreate from '@screen/Member/TripCreate'
-import MemberDrivers from '@screen/Member/Drivers'
-import MemberDriverCreate from '@screen/Member/DriverCreate'
-import MemberVehicles from '@screen/Member/Vehicles'
-import MemberVehicleCreate from '@screen/Member/VehicleCreate'
-import MemberSearchLoad from '@screen/Member/SearchLoad'
-import MemberSearchLoadList from '@screen/Member/SearchLoadList'
-import MemberSearchLoadDetail from '@screen/Member/SearchLoadDetail'
-import MemberSearchTrip from '@screen/Member/SearchTrip'
-import MemberSearchTripList from '@screen/Member/SearchTripList'
-import MemberSearchTripDetail from '@screen/Member/SearchTripDetail'
+import MemberChangePassword from '@screen/Member/ChangePassword';
+import MemberDriverCreate from '@screen/Member/DriverCreate';
+import MemberDrivers from '@screen/Member/Drivers';
+import MemberForgotPassword from '@screen/Member/ForgotPassword';
+import MemberHome from '@screen/Member/Home';
+import MemberLoadCreate from '@screen/Member/LoadCreate';
+import MemberLoads from '@screen/Member/Loads';
+import MemberProfile from '@screen/Member/Profile';
+import MemberResetPassword from '@screen/Member/ResetPassword';
+import MemberSearchLoad from '@screen/Member/SearchLoad';
+import MemberSearchLoadDetail from '@screen/Member/SearchLoadDetail';
+import MemberSearchLoadList from '@screen/Member/SearchLoadList';
+import MemberSearchTrip from '@screen/Member/SearchTrip';
+import MemberSearchTripDetail from '@screen/Member/SearchTripDetail';
+import MemberSearchTripList from '@screen/Member/SearchTripList';
+import MemberSettings from '@screen/Member/Settings';
+import MemberSignUp from '@screen/Member/SignUp';
+import MemberTripCreate from '@screen/Member/TripCreate';
+import MemberTrips from '@screen/Member/Trips';
+import MemberVehicleCreate from '@screen/Member/VehicleCreate';
+import MemberVehicles from '@screen/Member/Vehicles';
+
+import UserCreateBooking from './src/screen/User/CreateBooking';
+import UserHome from './src/screen/User/Home';
+import UserSignIn from './src/screen/User/SignIn';
 
 /* Navigation */
-import { navigationRef } from '@utility/navigation'
-import { setDefaultLocale } from '@utility/translation'
+import { navigationRef } from '@utility/navigation';
+import { setDefaultLocale } from '@utility/translation';
 
 const Stack = createStackNavigator()
 const Drawer = createDrawerNavigator()
@@ -68,6 +74,7 @@ function DrawerRoot() {
       drawerContent={(props) => <DrawerContent {...props} />}
       drawerStyle={{ width: width - 100 }}
     >
+      <Drawer.Screen name='UserHome' component={UserHome} />
       <Drawer.Screen name='MemberHome' component={MemberHome} />
     </Drawer.Navigator>
   )
@@ -99,8 +106,9 @@ export default class App extends React.Component {
     }
 
     return (
+      <Provider store={store}>
       <NavigationContainer ref={navigationRef}>
-        <Stack.Navigator initialRouteName='Drawer' headerMode='none'>
+        <Stack.Navigator initialRouteName='UserSignIn' headerMode='none'>
           <Stack.Screen name='Drawer' component={DrawerRoot} />
 
           <Stack.Screen name='PublicIntro' component={PublicIntro} />
@@ -111,8 +119,10 @@ export default class App extends React.Component {
           <Stack.Screen name='PublicFaqs' component={PublicFaqs} />
           <Stack.Screen name='PublicLanguage' component={PublicLanguage} />
 
+          <Stack.Screen name='UserSignIn' component={UserSignIn} />
+          <Stack.Screen name='UserCreateBooking' component={UserCreateBooking} />
+
           <Stack.Screen name='MemberSignUp' component={MemberSignUp} />
-          <Stack.Screen name='MemberSignIn' component={MemberSignIn} />
           <Stack.Screen name='MemberForgotPassword' component={MemberForgotPassword} />
           <Stack.Screen name='MemberResetPassword' component={MemberResetPassword} />
           <Stack.Screen name='MemberProfile' component={MemberProfile} />
@@ -134,6 +144,7 @@ export default class App extends React.Component {
           <Stack.Screen name='MemberSearchTripDetail' component={MemberSearchTripDetail} />
         </Stack.Navigator>
       </NavigationContainer>
+      </Provider>
     )
   }
 }

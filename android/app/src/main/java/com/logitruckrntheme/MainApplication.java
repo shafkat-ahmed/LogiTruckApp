@@ -1,4 +1,4 @@
-package com.logitruckrntheme;
+package com.trucktrackuserapp;
 
 import android.app.Application;
 import android.content.Context;

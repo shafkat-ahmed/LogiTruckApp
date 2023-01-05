@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.logitruckrntheme"
+        applicationId "com.trucktrackuserapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

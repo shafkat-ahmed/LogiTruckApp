@@ -32,5 +32,6 @@ export const COLOR = {
   smokeDark: 'rgba(0, 0, 0, 0.1)',
   smokeLight: 'rgba(0, 0, 0, 0.03)',
 
-  orange: 'rgba(255, 137, 1, 1)'
+  orange: 'rgba(255, 137, 1, 1)',
+  red: '#E32227'
 }
